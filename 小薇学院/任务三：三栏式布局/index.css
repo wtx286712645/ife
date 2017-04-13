@@ -1,0 +1,77 @@
+div.container{
+    width: 100%;
+    position: relative;
+}
+aside.aside_left{
+    float: left;
+    margin: 20px 20px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    background: white;
+}
+.left{
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+div.center{
+    width:auto;
+    background: #eee;
+}
+aside.aside_right{
+    position: absolute;
+    top:0;
+    right: 0px;
+    margin: 20px 20px;
+    float: right;
+    width: 120px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    background: white;
+}
+.tag{
+    height: 20px;
+}
+.centerin{
+    position: static;
+    margin-left:240px;
+    margin-right: 160px;
+    width: auto;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    background: white;
+}
+.clearfloat{
+    clear: both;
+}
+
+.footer{
+    height: 40px;
+    width: 100%;
+    background: orange;
+}
+
+#img_dog{
+    max-width: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.pic_right{
+    text-align: center;
+    margin: 5px auto;
+}
+.pic_right img{
+    max-width: 80px;
+}
+article.center{
+    background: white;
+    width: 93%;
+    padding: 10px 20px;
+}
+article.center p{
+    text-indent: 2em;
+    line-height: 25px;
+    margin: 7px 0;
+}
